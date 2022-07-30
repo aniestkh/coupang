@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.cf::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#part2 input {
+    font-size: 14px;
+    float: left;
+    margin: 6px 7px 0 0;
+}
+
+/* body */
+#sign {
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+#sign #part1 h1 {
+    text-align: center;
+    padding: 30px 0 0;
+    font-size: 40px;
+}
+
+
+#sign h2 {
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+#sign #part1 .form1 {
+    margin-bottom: 1px;
+}
+
+#sign #part1 .form1 p {
+    margin-bottom: 14px;
+}
+
+#sign #part1 .form1 p span {
+    padding: 14px 9px 12px;
+    border: 1px solid #ddd;
+    border-right: none;
+    font-size: 14px;
+
+}
+
+#sign #part1 input {
+    padding: 16px 0 12px 20px;
+    width: 90%;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+#sign #part2 h2 {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+#sign #part2 .form1 input+p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#sign #part2 .form1 input+p+p {
+    font-size: 12px;
+    padding: 6px 0 0 26px;
+}
+
+#sign #part2 .form2 {
+    border: 1px solid #ddd;
+    margin: 16px 0 12px;
+    padding: 18px 16px;
+    overflow: hidden;
+}
+
+#sign #part2 .form2>p {
+    padding: 0 0 12px;
+    background: url(../images/icon_find_sally.png) no-repeat;
+    background-size: 30px;
+    background-position: center right;
+}
+
+/* #sign #part2 .form2 input {
+    float: left;
+    margin: 6px 7px 0 0;
+} */
+#sign #part2 .form2 .ad {
+    overflow: hidden;
+    margin-left: 22px;
+}
+
+#sign #part2 .form2 .ad>p {
+    padding: 0 0 12px;
+}
+
+#sign #button {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#sign #button button {
+    padding: 16px 0;
+    font-size: 17px;
+    width: 100%;
+    background-color: #0074e9;
+    border: 1px solid #ddd;
+    color: #fff;
+    margin-top: 10px;
+}
+
+#footer p {
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0 40px;
+}
